@@ -30,7 +30,7 @@ CONFIG_DEFAULTS = {
     'JWT_DEFAULT_REALM': 'Login Required',
     'JWT_AUTH_URL_RULE': '/auth',
     'JWT_AUTH_ENDPOINT': 'jwt',
-    'JWT_AUTH_USERNAME_KEY': 'username',
+    'JWT_AUTH_USERNAME_KEY': 'email',
     'JWT_AUTH_PASSWORD_KEY': 'password',
     'JWT_ALGORITHM': 'HS256',
     'JWT_LEEWAY': timedelta(seconds=10),
